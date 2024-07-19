@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        function sum(a , b){
+            return a + b
+        }
+
+       let x =  sum(10, 20)
+       console.log(x)
+
+
+       let y = (a, b) => {
+        return a + b
+       }
+       console.log(y(20, 20))
+
+
+       for(let i = 0; i <= 10; i++){
+          console.log(i)
+       }
+
+       let i = 0
+       while(i <= 10){
+           console.log(i)
+           i++
+       }
+
+       let z = 0
+       do{
+         console.log(z)
+         z++
+       }while(z <= 10)
+
+
+       let a = "female"
+
+       switch (a) {
+        case "male":
+            console.log('male')
+            break;
+        case 'female':
+            console.log('female')    
+            break;
+        default:
+            console.log('none')
+            break;
+       }
+
+
+       let gender = 'female'
+       let age = 10
+
+       if(age >= 18){
+          if(gender == 'male'){
+            console.log('you can vote' +' ' +'male')
+          }else if(gender == 'female'){
+            console.log('you can vote' + 'female')
+          }
+       }else{
+        console.log('you can not vote')
+       }
+
+       
+
+
+    </script>
+</body>
+</html>

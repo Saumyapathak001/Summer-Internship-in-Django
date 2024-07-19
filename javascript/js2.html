@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //   let arr = [1, 2, 3, 4, 5]
+      //   console.log(arr)
+      //   arr.push(6)
+      //   console.log(arr)
+      //   arr.pop()
+      //   console.log(arr)
+      //   arr.unshift(0)
+      //   console.log(arr)
+      //   arr.shift()
+      //   console.log(arr)
+
+      //   arr.splice(2, 0, 'hello', 'hii', 'yy')
+      //   console.log(arr)
+
+      let arr = [1, 2, 3, 4, 5];
+
+      arr.forEach((e) => {
+        if (e % 2 == 1) {
+          console.log(e);
+        }
+      });
+
+      arr.map((e, i) => {
+        // console.log('element :' + e + " " + 'index: ' + i)
+        console.log(`element ${e}    index ${i}`);
+      });
+
+      let arr2 = [6, 7, 8, 9];
+
+      console.log([...arr, ...arr2]);
+
+      let myobj = {
+        name: "SSP",
+        age: 19,
+        sub: "Maths",
+      };
+
+      let x = "Oii";
+
+      myobj.name = "";
+      console.log(myobj);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      arr1 = ["a", "b", "c", "d", "e"];
+      arr2 = [1, 2, 3, 4, 5];
+
+      console.log([...arr1, ...arr2]);
+      let obj = {};
+
+      function myobj(arr1, arr2) {
+        for (let i = 0; i <= arr1.length; i++) {
+          obj[arr1[i]] = arr2[i];
+        }
+        // console.log(obj)
+      }
+
+      myobj(arr1, arr2);
+      console.log(obj);
+
+      for (let key in myobj) {
+        console.log(key, myobj[key]);
+      }
+
+      myobj.name = "Vishal";
+      console.log(obj);
+
+      arr = [10, 20, 30, 40, 50];
+      console.log(arr);
+      function add(x, arr) {
+        // console.log(arr+  "," + x)
+        // for(let i = 0 ; i <= length.arr , i++){
+
+        // len = length.arr
+        arr[arr.length] = x;
+        console.log(arr.length);
+
+        console.log(arr);
+        // }
+      }
+
+      add(60, arr);
+      console.log(arr);
+
+      arr.push(70);
+      console.log(arr);
+    </script>
+  </body>
+</html>

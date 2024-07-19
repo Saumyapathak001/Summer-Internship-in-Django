@@ -1,0 +1,14 @@
+/* Import Times New Roman font if not available by default */
+@font-face {
+    font-family: 'Times New Roman';
+    src: local('Times New Roman'), local('TimesNewRoman'), url('path_to_your_font_file.woff2') format('woff2'),
+         url('path_to_your_font_file.woff') format('woff');
+    font-weight: 400; /* Regular weight */
+    font-style: normal;
+}
+
+/* Applying Times New Roman Bold */
+.bold-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}

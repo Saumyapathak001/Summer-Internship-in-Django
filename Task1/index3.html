@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .header {
+            background-image: url("hero-bg.png");
+            height: 100vh;
+            width: 100%;
+            background-repeat: no-repeat;
+        }
+
+        .right {
+            width: 25%;
+            background-color: aqua;
+            box-shadow: 10px 10px 10px black;
+            border-radius: 10px;
+
+        }
+
+        .image{
+            margin-left: 160px;
+        }
+
+        .row2 {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .left {
+            margin-top: 50px;
+            width: 50%;
+
+        }
+
+        .left p {
+            font-size: 16px;
+            color: white;
+        }
+
+        .title {
+            text-align: center;
+            background-color: red;
+            color: white;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            padding: 20px 0px;
+            font-size: 20px;
+
+        }
+
+        .myform {
+            text-align: center;
+            background-color: white;
+            padding-left: 10px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            padding-bottom: 10px;
+
+        }
+
+        .myinput {
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            border: none;
+            border-bottom: 1px solid black;
+            background-color: transparent;
+            outline: none;
+            font-size: 15px;
+            padding-top: 10px;
+
+
+        }
+
+        .mysubmit {
+            width: 86%;
+            padding: 10px 0px;
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 10px;
+
+        }
+
+        /* Footer wala part */
+
+        /* .upper{
+            width: 100%;
+            height: 400px;
+            background-color: white;
+        } */
+
+        .lower{
+            width: 100%;
+            height: 400px;
+            background-color: black;
+            position: relative;
+            top: 400px
+        }
+
+        .sub-part{
+            width: 50%;
+            height: 200px;
+            background: url("talk-banner.png");
+            /* align-items: center; */
+            /* align-content: center; */
+            border-radius: 10px;
+            position: absolute;
+            left: 400px;
+            bottom: 300px
+        }
+        
+        .mysubmit1 {
+            width: 12%;
+            padding: 10px 0px;
+            background-color: white;
+            color:coral;
+            border: none;
+            border-radius: 10px;
+            position: relative;
+            left: 685px;
+            bottom: 40px;
+            /* bottom: 00px;; */
+        }
+
+        .title1{
+            text-align: center;
+            color: white;
+            position: relative;
+            left: 20px;
+            bottom: 60px;
+            font-size: 32px;
+            /* padding: 30px auto; */
+        }
+
+        .subject{
+            text-align: center;
+            color: white;
+            position: relative;
+            left: 20px;
+            bottom: -60px;
+            font-size: 20px;
+        }
+
+        .sub2{
+            text-align: center;
+            color: white;
+            position: relative;
+            left: 20px;
+            bottom: -75px;
+            font-size: 12px;
+        }
+
+        .img1{
+            /* text-align: center; */
+            position: relative;
+            left: 733px;
+            bottom: -95px;
+        }
+
+        .contact{
+            display: flex;
+        }
+
+        .left1{
+            width: 30%;
+            text-align: center;
+            color: white;
+            position: relative;
+            bottom: -170px;
+        }
+
+        .middle1{
+            width: 30%;
+            text-align: center;
+            color: white;
+            position: relative;
+            left: 90px;
+            bottom: -170px;
+        }
+
+        .right1{
+            width: 30%;
+            text-align: center;
+            color: white;
+            position: relative;
+            left: 200px;
+            bottom: -170px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="header">
+            <img src="./logo.png" alt="" class="image">
+            <div class="row2">
+                <div class="left">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, a dicta necessitatibus, odio,
+                        quasi nulla repellat similique eligendi mollitia esse illo nostrum? Iusto dolor consectetur
+                        nihil pariatur error dolore quo!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error commodi, nisi et totam atque odio
+                        sed magnam blanditiis vero repudiandae quidem a perspiciatis itaque officiis, voluptatem,
+                        doloremque soluta quasi fugiat aliquid unde eum sit vel aspernatur quam? Beatae hic blanditiis,
+                        ipsum sint magni saepe iste commodi provident at optio incidunt!
+                    </p>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nam!</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nam!</li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <div class="title">Transform your Campaigning<br> experience with Rewardix.</div>
+                    <form action="" class="myform">
+                        <input type="text" placeholder="Name" class="myinput"> <br>
+                        <input type="email" placeholder="EmailID" class="myinput"> <br>
+                        <input type="number" placeholder="Contact Number" class="myinput"> <br>
+                        <input type="text" placeholder="Company Name" class="myinput"> <br>
+                        <input type="text" placeholder="City" class="myinput"> <br>
+                        <input type="number" placeholder="Post Number" class="myinput"> <br>
+                        <button class="mysubmit" type="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="txt">
+        <h2>Complete your marketing strategy with a loyal program</h2>
+      </div>
+      <div class="bottomline1"></div>
+  
+      <div class="path">
+        <div class="path1">
+          <i class="fa fa-file-text fa-4x" aria-hidden="true"></i>
+          <h3>Hassle-free execution of end-to-end solution</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. fugiat
+            eveniet quasi?
+          </p>
+        </div>
+        <div class="slide2">
+          <i class="fa fa-thumbs- up fa-4x" aria-hidden="true"></i>
+          <h3>Not all Good Takes times to build</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique
+            voluptatum quaerat, ipsa
+          </p>
+        </div>
+        <div class="slide3">
+          <i class="fa fa-thumbs-up fa-4x" aria-hidden="true"></i>
+          <h3>Multiple fulfillment platform</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique
+            voluptatum quaerat, ipsa
+          </p>
+        </div>
+      </div>
+
+    <!-- Footer wala part -->
+
+    <div class="upper"></div>
+    <!-- <div class="lower-class"> -->
+        <div class="lower">
+            <div class="sub-part"></div>
+            <div class="title1">
+                Start increasing your online and <br> offline repeat sales!
+            </div>
+            <button class="mysubmit1" type="button">Talk to an Expert</button>
+
+            <div class="subject">
+                Have an Inquiry?
+            </div>
+
+            <div class="sub2">
+                contact with us here
+            </div>
+
+            <img src="border (1).png" alt="" class="img1">
+
+            <div class="contact">
+                <div class="left1">
+                    vishal@webosphere.in
+                </div>
+                <div class="middle1">
+                    info@webosphere.in
+                </div>
+                <div class="right1">
+                    +91 98798 98567
+                </div>
+            </div>
+
+        </div>
+
+</body>
+
+</html>

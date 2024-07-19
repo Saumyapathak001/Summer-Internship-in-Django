@@ -1,0 +1,74 @@
+<html>
+<head>
+    <title>Student Registration Form</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+        .card {
+            width: 350px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            font-family: poppins;
+        }
+        .form-group {
+            margin-bottom: 10px;
+        }
+        label {
+            display: block;
+            font-family: poppins; 
+        }
+        input[type="text"], input[type="email"], input[type="date"],  input[type="password"] {
+            font-family: poppins;
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: poppins;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+            font-family: poppins;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Student Registration</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">First Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+                <div class="form-group">
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            <div class="form-group">
+                <label for="dob">Password:</label>
+                <input type="password" id="pass" name="pass" required>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
